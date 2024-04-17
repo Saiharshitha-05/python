@@ -1,0 +1,23 @@
+class Box:
+    def __init__(self, currname,currrolno,currdbms,curros,currjava,currds,currc):
+        self.name=currname
+        self.rolno=currrolno
+        self.dbmsmarks=currdbms
+        self.osmarks=curros
+        self.javamarks=currjava
+        self.dsmarks=currds
+        self.cmarks=currc
+
+        #object creation
+student1 = Box("sita",898,67,68,98,96,99)
+student2 = Box("SreeRama",988,78,79,89,98,95)
+print(student1.name)
+print(student1.cmarks)
+print(student1.rolno)
+
+print(student2.name)
+print(student2.cmarks)
+print(student2.rolno)
+    
+
+
