@@ -1,0 +1,8 @@
+l=list(map(int,input().split()))
+print(l)
+w=set(l)
+print(w)
+v=list(w)
+print(v)
+print(l[-1])
+print(l[-2])
