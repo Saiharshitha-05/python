@@ -1,0 +1,14 @@
+print("starting line")
+a=[1,2,3]
+print(a[2])
+
+try:
+    a=10/2
+    print(y)
+except:
+    print("score exception raised")
+else:
+    print("no exception raised,everything worked prefectly ")
+finally:
+    print("this is final block")
+print("outide try block")
