@@ -1,0 +1,16 @@
+//single level inheritance
+
+class Box:
+    def _init_(self,name,rollNo):
+        self.name=name
+        self.rollNo=rollNo
+
+class child(Box):
+    def _init_(self,name,rollNo,sem):
+        self.name=name
+        self.rollNo=rollNo
+        self.sem=sem
+obj1=child("pammu",42,4)
+print(obj1.name)
+print(obj1.rollNo)
+print(obj1.sem)
