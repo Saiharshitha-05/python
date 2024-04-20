@@ -1,0 +1,23 @@
+
+
+
+
+class Box:
+    def _init_(self,name,roll):
+        self.name=name
+        self.roll=roll
+class student:
+    def _init_(self,fees):
+        self.fees=fees
+
+class child(Box):
+   def _init_(self,name,rollNo,fees,sem,):
+        self.sem=sem
+        Box._init_(self,"pammu",42)
+        student._init_(self,40000)
+
+obj1=child("pammu",42,4,40000)
+print(obj1.name)
+print(obj1.roll)
+print(obj1.sem)
+print(obj1.fees)
