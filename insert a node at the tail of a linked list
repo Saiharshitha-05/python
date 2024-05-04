@@ -1,0 +1,10 @@
+def insertNodeAtTail(llist_head,llist_item):
+    newBlock=SinglyLinkedListNode(llist_item)
+    if llist_head==None:
+        return newBlock
+    curr=llist_head
+    while curr.next!=None:
+        curr=curr.next
+    curr.next=newBlock
+    return llist_head
+    
